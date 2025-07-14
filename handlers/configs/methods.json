@@ -1,0 +1,76 @@
+{
+  "hold": 
+  {
+    "servers": 
+    [
+      {
+        "name": "server1",
+        "host": "",
+        "port": [22],
+        "type": "ssh",
+        "username": "username",
+        "password": "password",
+        "command": "screen -dmS {{session}} ./dnsflood {{host}} {{port}} 1 3000 {{time}}"
+      },
+      {
+        "name": "server2",
+        "host": "",
+        "port": [22],
+        "type": "ssh",
+        "username": "username",
+        "password": "password",
+        "command": "screen -dmS {{session}} ./home {{host}} -1 1 {{time}}"
+      }
+    ],
+    "ipv4": true,
+    "domain": false,
+    "maxTime": 500000,
+    "min_time": 30,
+    "group": "home_holder",
+    "maxConcurrents": 20,
+    "homeholder": true,
+    "enabled": true
+  },
+  "dns": 
+  {
+    "urls": 
+    [
+      {
+        "url": ""
+      }
+    ],
+    "servers": 
+    [
+      {
+        "name": "server1",
+        "host": "",
+        "port": [22],
+        "type": "ssh",
+        "username": "username",
+        "password": "password",
+        "command": "screen -dmS {{session}} ./dns {{host}} -1 1 {{time}}"
+      }
+    ],
+    "ipv4": true,
+    "domain": false,
+    "maxTime": 300,
+    "enabled": true,
+    "group": "main_network",
+    "maxConcurrents": 4
+  },
+  "http": 
+  {
+    "urls": 
+    [
+      {
+        "url": ""
+      }
+    ],
+    "ipv4": true,
+    "domain": true,
+    "maxTime": 300,
+    "enabled": true,
+    "group": "main_network",
+    "maxConcurrents": 4
+  }
+}

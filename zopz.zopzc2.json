@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6817f4a8ea871b82c24d4373"
+  },
+  "username": "root",
+  "password": "root",
+  "role": "owner",
+  "expiry": "Lifetime",
+  "maxTime": 500000,
+  "concurrents": 25,
+  "admin": true,
+  "reseller": false,
+  "api": true,
+  "spambypass": true,
+  "blacklistbypass": true,
+  "vip": true,
+  "homeholder": true,
+  "banned": false,
+  "isOnline": false,
+  "cooldown": 0,
+  "botnet": true,
+  "owed": 0,
+  "earnings": 0,
+  "usersSold": 0
+}]

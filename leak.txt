@@ -1,0 +1,2 @@
+Zopz decided to release fake exposes of Cypher and Elite (Including the owners Censored & Blyndz), and since he continue larping saying they are real, here is his full CNC deobfuscated. Key system has been commented
+out (/ZOPZCNC/index.js), if you decide to setup MongoDB as he says, he will have access to all your users and everything that's in there. Please use this source with your own caution, as it logs EVERYTHING.

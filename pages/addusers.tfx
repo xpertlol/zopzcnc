@@ -1,0 +1,22 @@
+[2J[H[8;25;125t[48;5;15m[38;5;27mAdd a user:[97m[0m
+[38;5;39m[97mUsage[38;5;39m[38;5;39m:[97m[97m adduser [38;5;39m<[97musername[38;5;39m> <[97mplanType(1-14)[38;5;39m> <[97madmin[38;5;39m> <[97mreseller[38;5;39m> <[97mapi[38;5;39m> <[97mvip[38;5;39m> <[97mspambypass[38;5;39m> <[97mblacklistbypass[38;5;39m> <[97mcooldown[38;5;39m> <[97muser[38;5;39m>[97m
+[97madduser testing 1 false false false false false false 0 user[97m:[0m
+[38;5;39m[[97m![38;5;39m][97m Plan typess:
+[48;5;15m[38;5;27mMonthly Basic Plans:[97m[0m
+[38;5;39m[[97m1[38;5;39m][97m 1 concurrents | Max Time[38;5;39m:[97m60s | Price[38;5;39m:[97m $20 | Duration[38;5;39m:[97m 30 days
+[38;5;39m[[97m2[38;5;39m][97m 3 concurrents | Max Time[38;5;39m:[97m120s | Price[38;5;39m:[97m $40 | Duration[38;5;39m:[97m 30 days
+[38;5;39m[[97m3[38;5;39m][97m 4 concurrents | Max Time[38;5;39m:[97m300s | Price[38;5;39m:[97m $80 | Duration[38;5;39m:[97m 30 days
+[48;5;15m[38;5;27mHolder Monthly Plans:[97m[0m
+[38;5;39m[[97m4[38;5;39m][97m 5 concurrents | Max Time[38;5;39m:[97m 86400s | Price[38;5;39m:[97m $60 | Duration[38;5;39m:[97m 30 days
+[38;5;39m[[97m5[38;5;39m][97m 6 concurrents | Max Time[38;5;39m:[97m 86400s | Price[38;5;39m:[97m $70 | Duration[38;5;39m:[97m 30 days
+[38;5;39m[[97m6[38;5;39m][97m 7 concurrents | Max Time[38;5;39m:[97m 86400s | Price[38;5;39m:[97m $80 | Duration[38;5;39m:[97m 30 days
+[38;5;39m[[97m7[38;5;39m][97m 10 concurrents | Max Time[38;5;39m:[97m 86400s | Price[38;5;39m:[97m $100 | Duration[38;5;39m:[97m 30 days
+[48;5;15m[38;5;27mHomeHolder 5 Day Plans:[97m[0m
+[38;5;39m[[97m8[38;5;39m][97m 3 concurrents | Max Time[38;5;39m:[97m 432000s | Price[38;5;39m:[97m $60 | Duration[38;5;39m:[97m 30 days
+[38;5;39m[[97m9[38;5;39m][97m 6 concurrents | Max Time[38;5;39m:[97m4 32000s | Price[38;5;39m:[97m $120 | Duration[38;5;39m:[97m 30 days
+[38;5;39m[[97m10[38;5;39m][97m 7 concurrents | Max Time[38;5;39m:[97m 432000s | Price[38;5;39m:[97m $140 | Duration[38;5;39m:[97m 30 days
+[38;5;39m[[97m11[38;5;39m][97m 10 concurrents | Max Time[38;5;39m:[97m  432000s | Price[38;5;39m:[97m $180 | Duration[38;5;39m:[97m 30 days
+[48;5;15m[38;5;27mLifetime Basic Plans:[0m
+[38;5;39m[[97m12[38;5;39m][97m 1 concurrents | Max Time[38;5;39m:[97m 60s | Price[38;5;39m:[97m $250 | Duration[38;5;39m:[97m Lifetime days
+[38;5;39m[[97m13[38;5;39m][97m 3 concurrents | Max Time[38;5;39m:[97m 120s | Price[38;5;39m:[97m $300 | Duration[38;5;39m:[97m Lifetime days
+[38;5;39m[[97m14[38;5;39m][97m 4 concurrents | Max Time[38;5;39m:[97m 300s | Price[38;5;39m:[97m $500 | Duration[38;5;39m:[97m Lifetime days
